@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(142deg, rgb(109, 3, 0), rgb(255, 118, 0));
+}
+header {
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 50%;
+
+}
+header > h1 {
+    padding: 3px;
+    color: goldenrod;
+    font-family: 'Rakkas', serif;
+}
+figure {
+    margin-top: Opx;
+    border: 3px;
+    padding: 10px;
+
+}
+.Random-pic:hover {
+    opacity: 75%;
+}
+.Random-pic {
+    display: flex;
+    flex-wrap: nowrap;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+q {
+    background-color: goldenrod;
+    font-style: italic;
+}
+.neighbour {
+    border-left: 2px solid red;
+    padding-left: 3px;
+}
+.farmer {
+    border-left: 2px solid green;
+    padding-left: 3px;
+}
+.good {
+    color: green;
+    text-transform: capitalize;
+}
+.bad {
+    color: red;
+    text-transform: capitalize;
+}
+.tr {
+    background-color: goldenrod;
+}
+table, th, td {
+    border: solid black 1px;
+    font-family: 'Lora', serif;
+}
+article {
+    flex-wrap: nowrap;
+    float: outside;
+    width: 40%;
+}
+.notification {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    bottom: 0;
+    right: 20px;
+    position: fixed;
+    display: inline-block;
+    border-radius: 2px;
+}
+.notification:hover {
+    background: red;
+}
+.notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+section {
+    display: flex;
+}
+h3, h4, p, ul {
+    font-family: 'Lora', serif;
+}
+.chn {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+footer {
+    font-family: 'Lora', serif;
+    font-size: 12px;
+}
+
+h4 {
+    margin-top: 50px;
+}
+#conclusion {
+    margin-bottom: 50px;
+}
+#Alan {
+    margin-left: 25px;
+}
